@@ -1,5 +1,10 @@
 # git-diff
-Best tool to compare: [DiffChecker](https://www.diffchecker.com/)
+**Best tool to compare: [DiffChecker](https://www.diffchecker.com/)**
+
+See all the branches:
+```git
+git branch -a
+```
 
 Command for going to the desired branch:
 ```git
@@ -14,6 +19,10 @@ git diff <branch1-name>..<branch2-name>
 Comparing a file in two branches:
 ```git
 git diff branch1..branch2 -- </path/to/filename>
+```
+Comparing two files on the same branch:
+```git
+git diff <file1> <file2>
 ```
 
 Comparing two branches and only wants file name `changed/ modified/ added/ renamed/ deleted` as result:
