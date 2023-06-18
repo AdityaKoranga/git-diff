@@ -1,4 +1,5 @@
 # git-diff
+Best tool to compare: [DiffChecker](https://www.diffchecker.com/)
 
 Command for going to the desired branch:
 ```git
